@@ -1,0 +1,50 @@
+2025-09-19 20:56:58,885 [ERROR] extensions: Unexpected callback status: 404
+2025-09-19 20:56:58,888 [ERROR] extensions: Error handling /data request
+Traceback (most recent call last):
+  File "d:\unilis_sdk\routes.py", line 54, in get_data
+    raise Exception("Something Went Wrong in CallBack Url")
+Exception: Something Went Wrong in CallBack Url
+2025-09-19 21:06:30,046 [ERROR] extensions: Error handling /data request
+Traceback (most recent call last):
+  File "d:\unilis_sdk\routes.py", line 48, in get_data
+    raise Exception("Callback url not found")
+Exception: Callback url not found
+2025-09-19 21:09:53,744 [ERROR] extensions: Error handling /data request
+Traceback (most recent call last):
+  File "d:\unilis_sdk\routes.py", line 48, in get_data
+    raise Exception("Callback url not found")
+Exception: Callback url not found
+2025-09-19 21:22:09,358 [ERROR] extensions: Callback returned 500 (server error)
+2025-09-19 21:22:09,358 [ERROR] extensions: Error handling /data request
+Traceback (most recent call last):
+  File "d:\unilis_sdk\routes.py", line 52, in get_data
+    raise Exception("Callback url failed to handle the request")
+Exception: Callback url failed to handle the request
+2025-09-19 21:23:04,859 [ERROR] extensions: Callback returned 500 (server error)
+2025-09-19 21:23:04,859 [ERROR] extensions: Error handling /data request
+Traceback (most recent call last):
+  File "d:\unilis_sdk\routes.py", line 53, in get_data
+    raise Exception("Callback url failed to handle the request")
+Exception: Callback url failed to handle the request
+2025-09-19 21:24:43,594 [ERROR] extensions: Callback returned 500 (server error)
+2025-09-19 21:24:43,596 [ERROR] extensions: Error handling /data request
+Traceback (most recent call last):
+  File "d:\unilis_sdk\routes.py", line 52, in get_data
+    raise Exception(api_response.text)
+Exception: {"error": "NOT NULL constraint failed: lis_invoice.invoice_date"}
+2025-09-19 21:28:15,450 [ERROR] extensions: Error handling /data request
+Traceback (most recent call last):
+  File "d:\unilis_sdk\routes.py", line 49, in get_data
+    raise Exception(api_response.text)
+Exception: {"error": "Invocie Not Found"}
+2025-09-19 21:28:48,505 [ERROR] extensions: Error handling /data request
+Traceback (most recent call last):
+  File "d:\unilis_sdk\routes.py", line 49, in get_data
+    raise Exception(api_response.text)
+Exception: {"error": "Invocie Not Found"}
+2025-09-19 21:29:27,678 [ERROR] extensions: Callback returned 500 (server error)
+2025-09-19 21:29:27,678 [ERROR] extensions: Error handling /data request
+Traceback (most recent call last):
+  File "d:\unilis_sdk\routes.py", line 52, in get_data
+    raise Exception(api_response.text)
+Exception: {"error": "cannot unpack non-iterable Invoice object"}
